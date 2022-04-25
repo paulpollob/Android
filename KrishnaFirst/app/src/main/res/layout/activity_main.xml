@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ABABAB"
+    tools:context=".MainActivity" 
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <EditText
+            android:id="@+id/firstNumber"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:layout_margin="10dp"
+            android:inputType="numberDecimal"
+            />
+
+
+        <EditText
+            android:id="@+id/operator"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:layout_margin="10dp"
+            android:entries="@array/operator"
+            />
+
+        <EditText
+            android:id="@+id/secondNumber"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:layout_margin="10dp"
+            android:inputType="numberDecimal"
+            />
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src="@drawable/login"
+        android:scaleType="fitXY"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src = "@drawable/login"
+        android:scaleType="fitXY"
+        />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="111dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="calculate"
+        android:drawableLeft="@drawable/login"
+        />
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop = "50dp"
+        android:background="@color/white"
+        />
+
+</LinearLayout>

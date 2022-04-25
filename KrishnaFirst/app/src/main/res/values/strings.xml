@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="value">Radha</string>
+    <string-array name="operator">
+        <item>sum</item>
+        <item>sub</item>
+        <item>div</item>
+        <item>mul</item>
+    </string-array>
+</resources>
