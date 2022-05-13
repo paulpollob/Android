@@ -1,9 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8EE8E0"
+    android:gravity="center"
+    android:padding = "10dp"
     tools:context=".Home">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id = "@+id/bdbtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="25dp"
+        android:textSize="25sp"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:background="@drawable/roundshape"
+        android:textColor="#FF001E"
+        android:drawableLeft="@drawable/bangladesh"
+        android:text="Bangladesh" />
+
+    <Button
+        android:id = "@+id/indiabtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/india"
+        android:text="India"
+        android:paddingLeft="30dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="#FF001E"
+        android:background="@drawable/roundshape"/>
+
+    <Button
+        android:id = "@+id/pakistanbtn"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#FF001E"
+        android:textAlignment="center"
+        android:paddingLeft="30dp"
+        android:background="@drawable/roundshape"
+        android:drawableLeft="@drawable/pakistan"
+        android:text="Pakistan" />
+
+</LinearLayout>

@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp"
     android:orientation="vertical"
     android:gravity="center"
     android:background="#ABABAB"
-    tools:context=".MainActivity" 
+    tools:context=".MainActivity"
     >
 
     <LinearLayout
@@ -52,9 +50,9 @@
     <ImageButton
         android:layout_width="100dp"
         android:layout_height="50dp"
-        android:src="@drawable/login"
         android:scaleType="fitXY"
-        />
+        android:src="@drawable/login" />
+
     <ImageView
         android:layout_width="100dp"
         android:layout_height="50dp"
@@ -64,13 +62,12 @@
 
     <Button
         android:id="@+id/calculate"
-        android:layout_width="111dp"
+        android:layout_width="132dp"
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
-        android:text="calculate"
-        android:drawableLeft="@drawable/login"
-        />
+        android:background="@drawable/round"
+        android:text="calculate" />
     <TextView
         android:id="@+id/answer"
         android:layout_width="200dp"
