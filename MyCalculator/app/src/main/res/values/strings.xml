@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyCalculator</string>
+    <string-array name="CountryNames">
+        <item>Belgium</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>English</item>
+        <item>Egypt</item>
+        <item>India</item>
+        <item>Iran</item>
+        <item>Israel</item>
+        <item>Nepal</item>
+        <item>USA</item>
+    </string-array>
+</resources>
