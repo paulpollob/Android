@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyAndroid</string>
+    <string name="mohaprabhu">
+        Chaitanya Mahaprabhu was a 15th-century Indian saint who is considered to be the combined avatar of Radha and Krishna by his disciples and various scriptures. Chaitanya Mahaprabhu\'s mode of worshipping Krishna with ecstatic song and dance had a profound effect on Vaishnavism in Bengal.
+    </string>
+    
+    <string-array name="header">
+        
+    </string-array>
+    
+    <string-array name="child">
+
+    </string-array>
+</resources>

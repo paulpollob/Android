@@ -1,0 +1,45 @@
+
+<resources>
+    <string name="app_name">Country Project</string>
+    <string name="bddetails">
+        Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country marked by lush greenery and many waterways. Its Padma (Ganges), Meghna and Jamuna rivers create fertile plains, and travel by boat is common. On the southern coast, the Sundarbans, an enormous mangrove forest shared with Eastern India, is home to the royal Bengal tiger.
+        \n\n
+        Capital: Dhaka\n
+        Population: 161 million (2015) world Bank\n
+        Currency: Bangladeshi TAKA\n
+        Capital and largest city: Dhaka\n
+        Prime minister: Sheikh Hasina\n
+        Official Language: Bengli\n
+
+
+    </string>
+    <string name = "indiadetails">
+
+    India is a vast South Asian country with diverse terrain
+    –
+    from Himalayan peaks to Indian Oceancoastline
+    –
+    and history reaching back 5 millennia. In the north, Mughal Empire landmarks include
+    Delhi’s Red Fort complex and massive Jama Masjid mosque, plus Agra’s iconic Taj Mahal
+    mausoleum. Pilgrims bathe in the Ganges in Varanasi, and Rishikesh is a yoga centre and base forHimalayan trekking.
+
+\n\n
+        Capital: New Delhi\n
+        Population: 1.311 Billion (2015) world Bank\n
+        Currency: Indian rupee\n
+        President: Pranab Mukherjee\n
+        Prime minister: Narendra Modi\n
+        Official Language: Hindi, English\n
+    </string>
+
+    <string name="pakistandetails">
+        Pakistan, officially the Islamic Republic of Pakistan, is a federal parliamentary republic in South Asia on the crossroads of Central and Western Asia. It is the sixth-most populous coutry with a population exeeding 201 million people.\n\n
+
+        Capital: Islamabad\n
+        Population: 188.9 million (2015) world Bank\n
+        Currency: Pakistani rupee\n
+        Presidant: Mamnoon Hussain\n
+        Prime minister: Nawaz Sharif\n
+        Official Language: Urdu, English\n
+    </string>
+</resources>

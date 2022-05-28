@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Basic</string>
+
+    <string-array name="name">
+        <item>Narayan</item>
+        <item>Nrishimha Bhaghawan</item>
+        <item>Sree Rama</item>
+        <item>Sree Krishna</item>
+        <item>Gouranga Mohaprabhu</item>
+        <item>Nityananda Mohaprabhu</item>
+    </string-array>
+</resources>
