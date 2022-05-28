@@ -9,10 +9,12 @@ import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.SearchView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     ListView list;
+    SearchView search;
     private String countryName[];
     int flags[] = {R.drawable.belgium, R.drawable.brazil, R.drawable.canada,
             R.drawable.english, R.drawable.egypt, R.drawable.india, R.drawable.iran, R.drawable.israel,
@@ -26,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         list = (ListView) findViewById(R.id.list);
 
+        //ArrayAdapter<String> adapter = new ArrayAdapter<String>(MainActivity.this, R.layout.activity_sample, countryName);
         countryName = getResources().getStringArray(R.array.CountryNames);
         CustomAdapter adptr = new CustomAdapter(this, countryName, flags);
         list.setAdapter(adptr);
@@ -37,5 +40,21 @@ public class MainActivity extends AppCompatActivity {
                 toast.show();
             }
         });
+
+/*
+        search = (SearchView) findViewById(R.id.search);
+        search.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                return false;
+            }
+        });
+
+ */
     }
 }

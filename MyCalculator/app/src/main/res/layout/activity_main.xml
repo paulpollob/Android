@@ -7,6 +7,11 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        />
     <ListView
         android:id="@+id/list"
         android:background="#3F9ECA"
