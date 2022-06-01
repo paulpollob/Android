@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Krishna">
         <activity
+            android:name=".ExpendableList"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

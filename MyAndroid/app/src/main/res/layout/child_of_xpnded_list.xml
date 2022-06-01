@@ -4,8 +4,12 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/child"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:text="Krishna"
+        android:textSize="50sp"
+        android:gravity="center"
         android:backgroundTint="#AA6969"
         android:background="@drawable/round"
         />

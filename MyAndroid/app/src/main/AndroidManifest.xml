@@ -13,6 +13,9 @@
             android:name=".Calculator"
             android:exported="false" />
         <activity
+            android:name=".ExpendableList"
+            android:exported="false" />
+        <activity
             android:name=".Feedback"
             android:exported="false" />
         <activity

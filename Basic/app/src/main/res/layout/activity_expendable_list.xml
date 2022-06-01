@@ -5,11 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ExpendableList">
-
-    <ExpandableListView
-        android:id="@+id/xpnd"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        />
+        android:text="hare Krishna"/>
 
 </LinearLayout>

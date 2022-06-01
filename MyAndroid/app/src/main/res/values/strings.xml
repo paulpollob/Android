@@ -5,10 +5,101 @@
     </string>
     
     <string-array name="header">
-        
+        <item>Sylhet</item>
+        <item>Dhaka</item>
+        <item>Chittagang</item>
+        <item>Barishal</item>
+        <item>Khulna</item>
+        <item>Rajshahi</item>
+        <item>Rangpur</item>
+        <item>Mymensingh</item>
     </string-array>
-    
-    <string-array name="child">
 
+    <string-array name="Sylhet">
+        <item>Bisnakandi.</item>
+        <item>Ratargul Swamp Forest.</item>
+        <item>Khadimnagar National Park.</item>
+        <item>Shahjalal Dorgha.</item>
+        <item>Satchari National Park.</item>
+        <item>Pangthumai Waterfall.</item>
+        <item>Hum Hum Water Falls.</item>
+        <item>Ali Amjad Clock Tower.</item>
+    </string-array>
+
+    <string-array name="Dhaka">
+        <item>Ahsan Manzil.</item>
+        <item>National Assembly building.</item>
+        <item>Lalbagh Fort.</item>
+        <item>Sadarghat.</item>
+        <item>Dhakeshwari Temple.</item>
+        <item>Martyred Intellectuals Memorial.</item>
+        <item>Bangladesh National Museum.</item>
+        <item>National Botanical Garden and Dhaka Zoo.</item>
+    </string-array>
+
+    <string-array name="Chittagong">
+        <item>Patenga Beach.</item>
+        <item>Karnaphuli River.</item>
+        <item>Naval Beach.</item>
+        <item>Vatiary Lake.</item>
+        <item>ChittaGong Commonwealth War Cemetery.</item>
+        <item>Ethonological Museum.</item>
+        <item>Guliakhali Sea Beach.</item>
+        <item>Dulahazra Safari Park.</item>
+    </string-array>
+
+    <string-array name="Barishal">
+        <item>Durga Sagar in Madhabpasha.</item>
+        <item>Baitul Aman Jame Masjid Complex.</item>
+        <item>Shohel Chattar, Bibir Pukur Par.</item>
+        <item>Padma Pukur, Barisal.</item>
+        <item>Bell\'s Park aka Bangabandhu Udyan.</item>
+        <item>30 Godown Freedom Fighters Monument.</item>
+        <item>barisal collectorete building.</item>
+        <item>barisal city at night.</item>
+    </string-array>
+
+    <string-array name="Khulna">
+        <item>Shait-Gumbad Mosque.</item>
+        <item>Fakir Lalon Shah\'s Mazaar.</item>
+        <item>Sundarbans.</item>
+        <item>Shilaidaha Kuthibari-Rabindranath Tagore\'s Residence.</item>
+        <item>Tomb of Khan Jahan Ali.</item>
+        <item>Genocide-Torture Archive and Museum.</item>
+        <item>Sat Gumbad Mosque.</item>
+        <item>Michael Madhusudan Dutta Memorial House.</item>
+    </string-array>
+
+    <string-array name="Rajshahi">
+        <item>Bagdhani Mosque.</item>
+        <item>Bagha Mosque.</item>
+        <item>Kismat Maria Mosque.</item>
+        <item>Tomb of Shah Makhdum.</item>
+        <item>Tomb of Shah Sultan.</item>
+        <item>Talando Shiv Mandir.</item>
+        <item>Puthia Temple Complex.</item>
+        <item>Boro Kuthi.</item>
+    </string-array>
+
+    <string-array name="Rangpur">
+        <item>Rangpur Tourist Spot.</item>
+        <item>Tajhat Jamidar Palace.</item>
+        <item>Itakumari Jamindar Bari.</item>
+        <item>Manthana Zamindar Bari.</item>
+        <item>Devi Chowdhuri Rani Rajbari</item>
+        <item>Rangpur Zoo.</item>
+        <item>Chickli Park.</item>
+        <item>Begum Rokeya University.</item>
+    </string-array>
+
+    <string-array name="Mymensingh">
+        <item>Kangsha River.</item>
+        <item>Gouripur Lodge.</item>
+        <item>Bangladesh Agricultural University Botanical Garden.</item>
+        <item>Shashi Lodge.</item>
+        <item>Zainul Abedin Park.</item>
+        <item>Alexander Castle.</item>
+        <item>Shilpacharya Zainul Abedin Sangrahashala.</item>
+        <item>Shaheed Memorial.</item>
     </string-array>
 </resources>

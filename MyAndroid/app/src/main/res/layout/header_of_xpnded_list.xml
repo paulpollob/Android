@@ -7,6 +7,10 @@
         android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="Sylhet"
         android:background="@drawable/round"
         />
 

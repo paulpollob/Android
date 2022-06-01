@@ -30,11 +30,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn3 = (Button) findViewById(R.id.btn3);
         btn3.setOnClickListener(this);
 
-
-
-
-
     }
+
+
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         menuInflater.inflate(R.menu.menu_lalyout, menu);
         return super.onCreateOptionsMenu(menu);
     }
+
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
@@ -68,6 +69,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         return super.onOptionsItemSelected(item);
     }
 
+
+
     @Override
     public void onClick(View v) {
         if(v.getId() == btn1.getId())
@@ -76,6 +79,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             Intent  intent = new Intent(this, ExpendableList.class);
             startActivity(intent);
+
         }
         else if(v.getId() == btn2.getId())
         {
